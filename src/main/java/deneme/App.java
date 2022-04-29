@@ -30,6 +30,9 @@ public class App {
         logger.error("Hello Word");
 
 
+        
+
+
         get ("/", (rq,rs)-> "Hello Word");
 
         get("/compute", (rq,rs)->{
